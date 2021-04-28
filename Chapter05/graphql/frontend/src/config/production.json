@@ -1,0 +1,4 @@
+{
+  "baseUrl": "http://www.js.education",
+  "apiUrl": "http://www.js.education/graphql"
+}

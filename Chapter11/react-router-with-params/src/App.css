@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App ul.menu {
+  margin: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.App ul.menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.App ul.menu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.App ul.menu li a:hover {
+  color: #ccc;
+}

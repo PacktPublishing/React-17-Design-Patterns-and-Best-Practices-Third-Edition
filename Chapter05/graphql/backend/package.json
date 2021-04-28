@@ -1,0 +1,62 @@
+{
+  "name": "contentpi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node dist/index.js",
+    "build": "tsc -p .",
+    "lint": "eslint . --ext .js,.tsx,.ts",
+    "lint:fix": "eslint . --fix --ext .js,.tsx,.ts",
+    "test": "jest src"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  },
+  "author": "Carlos Santana",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "4.17.11",
+    "@types/jest": "26.0.22",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/node": "14.14.37",
+    "@types/sequelize": "4.28.9",
+    "@typescript-eslint/eslint-plugin": "4.20.0",
+    "@typescript-eslint/parser": "4.20.0",
+    "eslint": "7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "sequelize-mock": "0.10.2",
+    "ts-jest": "^26.5.4",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "4.2.3"
+  },
+  "dependencies": {
+    "@contentpi/lib": "^1.0.2",
+    "@graphql-tools/load-files": "^6.3.2",
+    "@graphql-tools/merge": "^6.2.11",
+    "apollo-server": "2.22.2",
+    "dotenv": "^8.2.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "pg": "8.5.1",
+    "pg-hstore": "2.3.3",
+    "sequelize": "6.6.2",
+    "ts-node": "9.1.1"
+  }
+}
