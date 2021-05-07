@@ -1,14 +1,14 @@
 
-const nodeExternals = require('webpack-node-externals');
-const path = require('path');
+const nodeExternals = require('webpack-node-externals')
+const path = require('path')
 
-const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
+const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development'
 
 const rules = [{
   test: /\.(tsx|ts)$/,
   use: 'ts-loader',
   exclude: /node_modules/
-}];
+}]
 
 const client = {
   mode,
@@ -24,7 +24,7 @@ const client = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"],
   },
-};
+}
 
 const server = {
   mode,
@@ -42,6 +42,6 @@ const server = {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"],
   },
-};
+}
 
-module.exports = [client, server];
+module.exports = [client, server]
