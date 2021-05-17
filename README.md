@@ -1,8 +1,8 @@
-# React 17 Design Patterns and Best Practices
+# React 17 Design Patterns and Best Practices-Third Edition
 
 <a href="https://www.packtpub.com/product/react-17-design-patterns-and-best-practices-third-edition/9781800560444"><img src="https://static.packt-cdn.com/products/9781800560444/cover/smaller" alt="React 17 Design Patterns and Best Practices" height="256px" align="right"></a>
 
-This is the code repository for [React 17 Design Patterns and Best Practices](https://www.packtpub.com/product/react-17-design-patterns-and-best-practices-third-edition/9781800560444), published by Packt.
+This is the code repository for [React 17 Design Patterns and Best Practices-Third Edition](https://www.packtpub.com/product/react-17-design-patterns-and-best-practices-third-edition/9781800560444), published by Packt.
 
 **Design, build, and deploy production-ready web applications using industry-standard practices**
 
