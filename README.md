@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781800560444)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # React 17 Design Patterns and Best Practices-Third Edition
 
 <a href="https://www.packtpub.com/product/react-17-design-patterns-and-best-practices-third-edition/9781800560444"><img src="https://static.packt-cdn.com/products/9781800560444/cover/smaller" alt="React 17 Design Patterns and Best Practices" height="256px" align="right"></a>
